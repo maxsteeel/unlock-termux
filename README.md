@@ -4,7 +4,7 @@ Script for bootloader unlock on Spreadtrum devices using Termux
 Adapted to automatically detect and use OTG devices.
 
 
-#  Prerrequisites:
+#  Instructions:
 
 1. Install dependencies:
  ```
@@ -19,5 +19,5 @@ git clone https://github.com/maxsteeel/unlock-termux
 4. Run the script
 ```
 cd unlock-termux
-sh unlock-termux.sh
+bash unlock-termux.sh
 ```
