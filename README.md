@@ -8,7 +8,16 @@ Adapted to automatically detect and use OTG devices.
 
 1. Install dependencies:
  ```
- pkg install termux-api libusb
+ pkg install termux-api libusb git
  ```
+2. Clone this repo:
+```
+git clone https://github.com/maxsteeel/unlock-termux
+```
+3. Connect the device in flash mode.
 
-2. Connect the device in flash mode.
+4. Run the script
+```
+cd unlock-termux
+sh unlock-termux.sh
+```
